@@ -23,7 +23,7 @@ public class Solution {
      * @return
      */
     public Integer[] numberFamily(Integer number, Integer[] possibleFamilyMembers){
-
+        //creates new Integer array list
         List<Integer> result = new ArrayList<>();
         Arrays.sort(possibleFamilyMembers);
         for(int i = 0; i< possibleFamilyMembers.length-1; i++){
